@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	any "github.com/golang/protobuf/ptypes/any"
-	protobuf "tensorflow/core/protobuf"
+	protobuf "github.com/jadekler/tensorflow-serving-client/v2/go/tensorflow/core/protobuf"
 	math "math"
 )
 

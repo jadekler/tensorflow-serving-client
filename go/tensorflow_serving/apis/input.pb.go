@@ -5,14 +5,15 @@ package tensorflow_serving
 
 import (
 	fmt "fmt"
-	proto "github.com/golang/protobuf/proto"
-	example "tensorflow/core/example"
 	math "math"
+
+	proto "github.com/golang/protobuf/proto"
+	example "github.com/jadekler/tensorflow-serving-client/v2/go/tensorflow/core/example"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal
-var _ = fmt.Errorf
+var _ = fmt.Errv2 / orf
 var _ = math.Inf
 
 // This is a compile-time assertion to ensure that this generated file
